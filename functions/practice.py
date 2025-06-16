@@ -45,5 +45,45 @@
 # print(max(highest_count.items()))
 
 
+# name=input("Enter name:")
+# age=input("Enter age:")
+
+# print("hello",name ,"you are",age,"years old")
+
+# num=int(input("enter a number:"))
+# if num%2==0:
+#     print("even number")
+# else:
+#     print("odd number")
+
+# num=int(input("enter a number:"))
+# if num>0:
+#     print("positive")
+# elif num<0:
+#     print("negative")
+# else:
+#     print("num is zero")
+
+# marks=int(input("enter a number:"))
+# if marks>90:
+#     print("A")
+# elif marks>75 and marks<90:
+#     print("B")
+# elif marks>50 and marks<75:
+#     print("C")
+# else:
+#     print("Fail")
+
+a=10
+b=2
+c=24
+if a>b and a>c:
+    print(a)
+elif b>c and b>a:
+    print(b)
+else:
+    print(c)
+
+
 
     
