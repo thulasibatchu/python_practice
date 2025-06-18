@@ -30,8 +30,8 @@
 #     sum=sum+num
 # print(sum)
 
-fruits = ["apple", "banana", "mango","apple","mango"]
-print(fruits.count('apple'))
+# fruits = ["apple", "banana", "mango","apple","mango"]
+# print(fruits.count('apple'))
 
 #num=[2,5,7,4,98]
 #print(max(num))
