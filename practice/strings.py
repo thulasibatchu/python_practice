@@ -15,10 +15,12 @@ s="hello world"
 # else:
 #     print('s is not a palindrome')
 
-vowels='aeiou'
-for i in vowels:
-    s=s.replace(i,'*')
-print(s)
+# vowels='aeiou'
+# for i in vowels:
+#     s=s.replace(i,'*')
+# print(s)
+
+
 
 
 
