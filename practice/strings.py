@@ -20,6 +20,31 @@ s="hello world"
 #     s=s.replace(i,'*')
 # print(s)
 
+# words="this is a word i thought but"
+# a=words.split()
+# print(len(a))
+
+# s='silent'
+# a='listen'
+
+# if sorted(s)==sorted(a):
+#     print("yes it is a anagram")
+# else:
+#     print("not an anagram")
+
+text='banana'
+freq={}
+for ch in text:
+    if ch not in freq:
+        freq[ch]=text.count(ch)
+for ch,count in freq.items():
+    print(ch,":",freq)
+
+
+
+
+
+
 
 
 
