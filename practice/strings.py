@@ -32,14 +32,23 @@ s="hello world"
 # else:
 #     print("not an anagram")
 
-text='banana'
-freq={}
-for ch in text:
-    if ch not in freq:
-        freq[ch]=text.count(ch)
-for ch,count in freq.items():
-    print(ch,":",freq)
+# text='banana'
+# freq={}
+# for ch in text:
+#     if ch not in freq:
+#         freq[ch]=text.count(ch)
+# for ch,count in freq.items():
+#     print(ch,":",freq)
 
+input= "apple banana apple orange apple"
+freq={}
+fruits=input.split()
+print(fruits)
+for fruit in fruits:
+    if fruit in freq:
+        freq[fruit]=fruits.count(fruit)
+for fruit,count in freq.items():
+    print(fruit,freq)
 
 
 
