@@ -1,4 +1,4 @@
-s="hello world"
+# s="hello world"
 # print(s.count('a'))
 
 # s1=s.reverse()
@@ -40,15 +40,41 @@ s="hello world"
 # for ch,count in freq.items():
 #     print(ch,":",freq)
 
-input= "apple banana apple orange apple"
-freq={}
-fruits=input.split()
-print(fruits)
-for fruit in fruits:
-    if fruit in freq:
-        freq[fruit]=fruits.count(fruit)
-for fruit,count in freq.items():
-    print(fruit,freq)
+# input= "apple banana apple orange apple"
+# freq={}
+# fruits=input.split()
+# print(fruits)
+# for fruit in fruits:
+#     if fruit in freq:
+#         freq[fruit]=fruits.count(fruit)
+# for fruit,count in freq.items():
+#     print(fruit,freq)
+
+
+# a="Hello world"
+# vowels='aeiou'
+# count=0
+# for i in vowels:
+#     count+=a.count(i)
+# print(count)
+
+# for i in vowels:
+#     a=a.replace(i,'')
+# print(a)
+
+# a="python"
+# rev=""
+# for i in range(len(a)-1,-1,-1):
+#     rev+=a[i]
+
+# print(rev)
+
+i='aabc'
+j='abac'
+print(i.count('a'))
+     
+
+
 
 
 

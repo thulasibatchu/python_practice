@@ -28,16 +28,18 @@
 # c.remove(a)
 # print(max(c))
 
-a=[1,4,6,3,9]
-freq={'even':0,'odd':0}
-for i in a:
-    if i%2==0:
-       freq['even']+=1
-    else:
-        freq['odd']+=1
-for key,value in freq.items():
-    print(key,":",value)
+# a=[1,4,6,3,9]
+# freq={'even':0,'odd':0}
+# for i in a:
+#     if i%2==0:
+#        freq['even']+=1
+#     else:
+#         freq['odd']+=1
+# for key,value in freq.items():
+#     print(key,":",value)
+
     
+
     
 
 
