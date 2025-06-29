@@ -69,10 +69,43 @@
 
 # print(rev)
 
-i='aabc'
-j='abac'
-print(i.count('a'))
-     
+# i='aabc'
+# j='abbc'
+# if len(i)!=len(j):
+#     print(False)
+# else:
+#     match=True
+#     for ch in i:
+#        if i.count(ch)!=j.count(ch):
+#            match=False
+#            break
+#     print(match)
+
+# a="hello world python"
+# b=a.replace(" ","-")
+# print(b)
+
+# a="hello world"
+# b=a.split()
+# print(b)
+# for i in range(len(b)):
+#     b[i]=b[i].capitalize()
+# result=' '.join(b)
+# print(result)
+
+# a="Hello World"
+# vowels="aeiou"
+# for i in vowels:
+#     a=a.replace(i,'')
+# print(a)
+
+a="thulasi"
+b=''
+for i in range(len(a)-1,-1,-1):
+    b+=a[i]
+    
+print(b)
+
 
 
 
