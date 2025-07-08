@@ -153,24 +153,28 @@
 # print("highest frequency character",max_char[0])
 # print("count of highest frequency character",max_char[1])
 
-sentence = "apple banana apple orange banana apple"
-a=sentence.split()
-b={}
-print(a)
-for i in a:
-    if i in b:
-        b[i]+=1
-    else:
-        b[i]=1
+# sentence = "apple banana apple orange banana apple"
+# a=sentence.split()
+# b={}
+# print(a)
+# for i in a:
+#     if i in b:
+#         b[i]+=1
+#     else:
+#         b[i]=1
 
-for i,count in b.items():
-    print(i,count)
+# for i,count in b.items():
+#     print(i,count)
 
 # max_count=max(b.items(),key=lambda item:item[1])
 # print(max_count[0],max_count[1])
 
-min_count=min(b.items(),key=lambda item:item[1])
-print(min_count[0],min_count[1])
+# min_count=min(b.items(),key=lambda item:item[1])
+# print(min_count[0],min_count[1])
+
+
+
+
 
 
 
